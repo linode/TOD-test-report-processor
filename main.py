@@ -35,7 +35,7 @@ def get_software_name(file_name: str):
     elif 'packer' in file_name:
         return "packer"
     elif 'ansible' in file_name:
-        return "ansible"
+        return "ansible_linode"
     else:
         "unknown software type"
 
