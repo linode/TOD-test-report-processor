@@ -16,6 +16,10 @@ def get_release_version(file_name):
         url = latest_release_urls[4]
     elif 'ansible' in file_name:
         url = latest_release_urls[5]
+    elif 'py-metadata' in file_name:
+        url = latest_release_urls[6]
+    elif 'go-metadata' in file_name:
+        url = latest_release_urls[7]
     else:
         "unknown log type"
         
