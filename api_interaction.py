@@ -1,6 +1,6 @@
 import requests
 
-latest_release_urls = ["https://api.github.com/repos/linode/linode-cli/releases/latest", "https://api.github.com/repos/linode/linode_api4-python/releases/latest", "https://api.github.com/repos/linode/linodego/releases/latest", "https://api.github.com/repos/linode/terraform-provider-linode/releases/latest", "https://api.github.com/repos/linode/packer-plugin-linode/releases/latest", "https://api.github.com/repos/linode/ansible_linode/releases/latest","https://api.github.com/repos/linode/py-metadata/releases/latest","https://api.github.com/repos/linode/go-metadata/releases/latest"]
+latest_release_urls = ["https://api.github.com/repos/linode/linode-cli/releases/latest", "https://api.github.com/repos/linode/linode_api4-python/releases/latest", "https://api.github.com/repos/linode/linodego/releases/latest", "https://api.github.com/repos/linode/terraform-provider-linode/releases/latest", "https://api.github.com/repos/linode/packer-plugin-linode/releases/latest", "https://api.github.com/repos/linode/ansible_linode/releases/latest", "https://api.github.com/repos/linode/py-metadata/releases/latest", "https://api.github.com/repos/linode/go-metadata/releases/latest"]
 
 def get_release_version(file_name):
     url = ""
