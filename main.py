@@ -36,6 +36,10 @@ def get_software_name(file_name: str):
         return "packer"
     elif 'ansible' in file_name:
         return "ansible_linode"
+    elif 'py-metadata' in file_name:
+        return "py-metadata"
+    elif 'go-metadata' in file_name:
+        return "go-metadata"
     else:
         "unknown software type"
 
